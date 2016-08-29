@@ -15,6 +15,7 @@ setup(
     py_modules=[__title__],
     install_requires=[
         'internetarchive',
+        'docopt',
     ],
     entry_points={
         'internetarchive.cli.plugins': [
